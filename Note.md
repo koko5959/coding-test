@@ -69,6 +69,8 @@ flowchart TD
     - ユーザーの入力を受取り、状態を更新する
     - 入力バリデーションでエラーの場合、stringを返す
     - その他の場合、エラーを返す
+ - get_status(self): string
+    - 現在のゲームの状態に応じたメッセージを返す
 
 ## メモ
 - 英語1文字の判定(str.isalpha vs str.encode('utf-8').isalpha())
